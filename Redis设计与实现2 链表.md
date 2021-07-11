@@ -354,7 +354,6 @@ void listRewindTail(list *list, listIter *li) {
     li->direction = AL_START_TAIL;
 }
 
- * */
 /*
  * 返回迭代器当前所指向的节点。
  *
@@ -499,7 +498,7 @@ listNode *listSearchKey(list *list, void *key)
     // 未找到
     return NULL;
 }
-
+/*
  * 返回链表在给定索引上的值。
  *
  * 索引以 0 为起始，也可以是负数， -1 表示链表最后一个节点，诸如此类。

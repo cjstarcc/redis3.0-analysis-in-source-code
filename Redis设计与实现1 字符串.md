@@ -100,7 +100,7 @@ struct sdshdr *sh = (void*) (s-(sizeof(struct sdshdr)))
  * 复杂度
  *  T = O(N)
  */
-/* Duplicate an sds string. */
+
 sds sdsdup(const sds s) {
     return sdsnewlen(s, sdslen(s));
 }
